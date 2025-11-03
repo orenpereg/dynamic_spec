@@ -6,6 +6,7 @@ __pycache__/
 .Python
 env/
 venv/
+venv_ov_test/
 ENV/
 build/
 dist/
@@ -23,6 +24,9 @@ Phi-3-mini-FastDraft-50M-int8-ov/
 
 # Downloaded utilities
 notebook_utils.py
+
+# OpenVINO cache
+ov_cache/
 
 # VS Code
 .vscode/
