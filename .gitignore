@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Models (large files)
+Phi-3-mini-4k-instruct-int4-ov/
+Phi-3-mini-FastDraft-50M-int8-ov/
+*.bin
+*.onnx
+
+# Downloaded utilities
+notebook_utils.py
+
+# VS Code
+.vscode/
